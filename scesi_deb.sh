@@ -26,6 +26,7 @@ root=debian
 proto=rsync
 rsyncoptions="-aIL --partial --bwlimit=100"
 
+#este path se modifica de acuerdo a donde quieres que descargue
 path=/opt/apps/tmp/mirror/debian/
 
 debmirror --dry-run \
