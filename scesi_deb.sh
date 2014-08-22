@@ -44,3 +44,5 @@ debmirror --dry-run \
           --proxy=http://192.245.121.9:3128 \
           $path
 
+# https://github.com/josben/scripts
+
